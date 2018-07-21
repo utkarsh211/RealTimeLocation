@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/regLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/su"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textSize="25sp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/su"
+        android:hint="Enter Username"/>
+    <EditText
+        android:id="@+id/mobno"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:hint="Enter Mobile Number"/>
+    <EditText
+        android:id="@+id/conf_mobno"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobno"
+        android:hint="Confirm Mobile Number"
+        />
+
+    <EditText
+        android:id="@+id/pswd1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/conf_mobno"
+        android:hint="Enter Password" />
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/conf_pswd"
+        android:hint="Confirm Password"
+        android:layout_below="@+id/pswd1"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/conf_pswd"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/conf_pswd"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:text="Cancel" />
+
+
+
+
+</RelativeLayout>

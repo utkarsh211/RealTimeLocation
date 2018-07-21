@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "400464651901",
+    "firebase_url": "https://realtimelocation-fb747.firebaseio.com",
+    "project_id": "realtimelocation-fb747",
+    "storage_bucket": "realtimelocation-fb747.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400464651901:android:f8ab07b8af43d7f3",
+        "android_client_info": {
+          "package_name": "com.example.utkar.realtimelocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400464651901-2bnb29i4v6m6qnv4ttm5q5mv1dvj22ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa4Q5HzePQDnEmuXHeBD-_q4VzeliCvXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
